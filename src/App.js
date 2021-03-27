@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
 import styles from './App.module.css'
-class App extends Component {
-  
+import Board from './Board'
 
-  
+class App extends Component {
 
   render() {
     return(
-      <div></div>
+      <div>
+        <Board></Board>
+      </div>
     )
   }
 }
 
 export default App;
+
+
+
+// history moves
+
+
+// modal
+// backdrop 
+// ai
+// reset if no win possible
